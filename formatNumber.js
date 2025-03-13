@@ -1,4 +1,10 @@
-//Function to format numbers from 123456789.00 to 123,456,789.00
+/**
+ * Formats a number with commas as thousands separators and ensures two decimal places.
+ *
+ * @param {number|string} input - The number to format. Can be a number or a string representation of a number.
+ * @returns {string} The formatted number as a string with commas and two decimal places.
+ * @throws {Error} Throws an error if the input is not a valid number.
+ */
 const formatNumber = input => {
   // Convert input to a number
   const number = Number(input);
